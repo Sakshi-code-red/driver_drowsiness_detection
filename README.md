@@ -15,20 +15,6 @@ Driver drowsiness is one of the major causes of road accidents. This project imp
 
 ---
 
-## 📂 Project Structure
-
-Driver-Drowsiness-Detection/
-│
-├── src/                     # Source code
-│   ├── model_training.py    # Script for training the ML model
-│   └── model_work.py        # Script for running webcam & prediction
-├── venv/                    # Virtual environment (ignored in GitHub)
-├── ddd.pkl                  # Saved trained model
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
-
----
-
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:
@@ -82,5 +68,18 @@ Driver-Drowsiness-Detection/
 * Add sound/vibration alerts.
 * Deploy on Raspberry Pi for real car testing.
 * Improve model accuracy with CNNs.
+
+---
+## 📂 Project Structure
+
+Driver-Drowsiness-Detection/
+│
+├── src/                     # Source code
+│   ├── model_training.py    # Script for training the ML model
+│   └── model_work.py        # Script for running webcam & prediction
+├── venv/                    # Virtual environment (ignored in GitHub)
+├── ddd.pkl                  # Saved trained model
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
 
 ---
