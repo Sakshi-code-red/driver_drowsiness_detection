@@ -1,7 +1,7 @@
 import cv2
 import os
 
-main_folder_path=(r"C:\Users\User\Desktop\Driver Drowsiness Detection\DDD_project_dataset\train")   
+main_folder_path=(r"C:\Users\User\Desktop\DDD_project_dataset\train")   
 main_folder_name=os.path.basename(main_folder_path)
 print("folder Name:",main_folder_name)
 

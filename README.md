@@ -11,7 +11,7 @@ Driver drowsiness is one of the major causes of road accidents. This project imp
 * **Language:** Python
 * **Libraries:** OpenCV, scikit-learn, NumPy, Joblib
 * **Environment:** VS Code
-* **Dataset:** Kaggle (Open/Closed eyes dataset)
+* **Dataset:** Kaggle (Open/Closed eyes dataset) - download from Kaggle
 
 ---
 
@@ -19,7 +19,6 @@ Driver drowsiness is one of the major causes of road accidents. This project imp
 
 Driver-Drowsiness-Detection/
 │
-├── DDD_project_dataset/     # Dataset folder (raw training/testing images)
 ├── src/                     # Source code
 │   ├── model_training.py    # Script for training the ML model
 │   └── model_work.py        # Script for running webcam & prediction
